@@ -1,0 +1,15 @@
+<!DOCTYPE HTML>
+<html>
+
+<head>
+    <title> <%= htmlWebpackPlugin.options.title %> </title>
+    <%= require('html-loader!./includes/head-meta.html') %>
+</head>
+
+<body>
+    <div id="app">
+        <router-view></router-view>
+    </div>
+</body>
+
+</html>

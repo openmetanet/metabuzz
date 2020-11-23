@@ -1,0 +1,16 @@
+<!DOCTYPE HTML>
+<html>
+
+<head>
+    <title> <%= htmlWebpackPlugin.options.title %> </title>
+    <%= require('html-loader!./includes/head-meta.html') %>
+    <link rel="stylesheet" href="//at.alicdn.com/t/font_2015889_2p6lp6dmgw8.css" >
+</head>
+
+<body>
+    <div id="app">
+        <router-view></router-view>
+    </div>
+</body>
+
+</html>

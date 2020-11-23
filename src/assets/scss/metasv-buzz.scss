@@ -1,0 +1,48 @@
+@import "_common";
+@import "popover";
+@import "markdown";
+@import "metasv-responsive";
+
+[class^='btn-'] {
+  cursor: pointer;
+}
+body {
+  min-height: 100vh;
+  color: #fff;
+  background: #131929;
+  #app {
+    padding-top: 50px;
+  }
+}
+img {
+  object-fit: cover;
+}
+a {
+  text-decoration: none;
+}
+button {
+  background: transparent;
+  border: none;
+  outline: none;
+}
+.svg-icon {
+  display: inline-block;
+  vertical-align: middle;
+  margin: 0 5px;
+}
+.column-page {
+  max-width: 1200px;
+  padding: 0 10px;
+  width: 100%;
+  padding-top: 25px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+}
+.toasted-container {
+  &.top-center {
+    .toasted {
+      justify-content: center;
+    }
+  }
+} 
