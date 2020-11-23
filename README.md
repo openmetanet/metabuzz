@@ -4,7 +4,7 @@
 
 ```bash
 # clone the project
-git clone https://github.com/Showpay/metabuzz.git
+git clone https://github.com/openmetanet/metabuzz.git
 
 # enter the project directory
 cd metabuzz
