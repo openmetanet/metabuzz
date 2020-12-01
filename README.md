@@ -85,6 +85,9 @@ prod: {
     },
 },
 ```
+### oauth clientID申请
+
+可在 https://www.showmoney.app/open 来创建您的ClientId和secret
 
 ### 推荐vscode插件
 
