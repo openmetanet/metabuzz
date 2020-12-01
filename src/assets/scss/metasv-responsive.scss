@@ -93,16 +93,27 @@
     }
   }
   .isMobile {
-    .sidebar {
-      width: 81.481vw;
-      background: #474f62;
-      margin: unset;
-      height: 100%;
+    #user-buzz-list .sidebar,
+    #buzz-list .sidebar {
       z-index: 2;
-      left: -81.481vw;
-      top: 0;
+      .inner {
+        width: 81.481vw;
+        background: #474f62;
+        margin: unset;
+        height: 100%;
+        z-index: 2;
+        left: -81.481vw;
+        top: 0;
+        position: fixed;
+      }
       &.active {
-        left: 0;
+        .inner {
+          left: 0;
+          margin: 0;
+        }
+        .mark {
+          display: block;
+        }
       }
       .my-nav {
         padding: 6.759vw 5.556vw 0;
@@ -136,11 +147,16 @@
         }
       }
     }
+    #user-buzz-list {
+      .index-content {
+        margin: 0;
+      }
+    }
   }
   #user-buzz-list {
     padding: unset !important;
-    .index-content {
-      margin: 0 0.625rem !important;
+    .sidebar-left {
+      display: none;
     }
   }
   .media-container {
@@ -172,9 +188,9 @@
   }
   .comment-form .publish {
     .avatar-wrapper {
-      width: 24px;
-      height: 24px;
-      min-width: 24px;
+      width: 40px;
+      height: 40px;
+      min-width: 40px;
     }
     button {
       max-width: 5.5rem;

@@ -128,8 +128,10 @@ const config: ObjTypes<ConfigTypes> = {
     baseUrl: 'https://buzz.metasv.com', 		    // 当前项目的基本 Url
     showMoneyUrl: 'https://www.showmoney.app',  // Showmoney 钱包地址 - 不需要变动
     metaFileServiceUrl: 'https://buzz-api.metasv.com/api',  // MetaFile 文件服务API地址 - 不需要变动
-    metaIdServiceUrl: 'https://buzz-api.metasv.com',      // MetaId 数据服务服务API地址
-    metaIdCenterUrl: 'https://buzz-api.metasv.com/tag',// Tag 服务API地址
+    metaIdServiceUrl: 'https://api.showmoney.app',      // Showmoney MetaId 数据服务服务API地址
+    // metaIdServiceUrl: 'https://buzz-api.metasv.com',      // MetaSV MetaId 数据服务服务API地址
+    metaIdCenterUrl: 'https://api.showmoney.app/tag',// Showmoney Tag 服务API地址
+    // metaIdCenterUrl: 'https://buzz-api.metasv.com/tag',// MetaSV Tag 服务API地址
     basePath: '/metasv-buzz/',					// 默认 不需要变动
     metaIdTag: 'metaid',
     env: type,
