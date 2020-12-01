@@ -85,9 +85,6 @@ prod: {
     },
 },
 ```
-### oauth clientID申请
-
-可在 https://www.showmoney.app/open 来创建您的ClientId和secret
 
 也可以采用 metasv 提供的 API
 
@@ -96,6 +93,10 @@ metaFileServiceUrl: 'https://buzz-api.metasv.com/api',  // Showman 文件服务A
 metaIdServiceUrl: 'https://buzz-api.metasv.com/ ',      // ShowmanDB 服务API地址 
 metaIdCenterUrl: 'https://buzz-api.metasv.com/tag',    // Tag 服务API地址
 ```
+
+### oauth clientID申请
+
+可在 https://www.showmoney.app/open 来创建您的ClientId和secret
 
 ### 推荐vscode插件
 
