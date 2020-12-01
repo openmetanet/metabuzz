@@ -89,9 +89,9 @@ prod: {
 也可以采用 metasv 提供的 API
 
 ```js
-metaFileServiceUrl: 'https://buzz-api.metasv.com/api',  // Showman 文件服务API地址 
-metaIdServiceUrl: 'https://buzz-api.metasv.com/ ',      // ShowmanDB 服务API地址 
-metaIdCenterUrl: 'https://buzz-api.metasv.com/tag',    // Tag 服务API地址
+metaFileServiceUrl: 'https://buzz-api.metasv.com/api',  
+metaIdServiceUrl: 'https://buzz-api.metasv.com/ ',      
+metaIdCenterUrl: 'https://buzz-api.metasv.com/tag',    
 ```
 
 ### oauth clientID申请
